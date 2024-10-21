@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #1DB954;
+    padding: 20px;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+}
+
+#buscador {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+button {
+    background-color: #1DB954;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #17a848;
+}
+
+#resultado-busqueda {
+    margin-top: 20px;
+}
+
+.cancion {
+    background-color: #282828;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancion:hover {
+    background-color: #3e3e3e;
+}
+
+.botones-reproduccion {
+    display: none;
+    margin-top: 20px;
+}
+
+#cancion-actual {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
